@@ -12,23 +12,23 @@ Learn the simplest way to integrate Bitcoin wallet features into any application
 
 The core libraries are developed and maintained collectively by the Bitcoin Dev Kit devs. The following table outlines those libraries as well as a lead maintainer for each of them.
 
-| Library                 | Repository                                                                    | Lead Maintainer    |
-| ----------------------- | ----------------------------------------------------------------------------- | ------------------ |
-| `bdk_wallet`            | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet)                     | [ValuedMammal]     |
-| `bdk_chain`             | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [evanlinjin]       |
-| `bdk_core`              | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |
-| `bdk_tx`                | [bdk-tx](https://github.com/bitcoindevkit/bdk-tx)                             |                    |
-| `bdk_esplora`           | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |
-| `bdk_electrum`          | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |
-| `bdk_bitcoind_rpc`      | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |
-| `bdk_file_store`        | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |
-| `electrum-client`       | [rust-electrum-client](https://github.com/bitcoindevkit/rust-electrum-client) |                    |
-| `esplora-client`        | [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client)   |                    |
-| `bdk-kyoto`             | [bdk-kyoto](https://github.com/bitcoindevkit/bdk-kyoto)                       | [rustaceanrob]     |
-| `BitcoinDevKit` (Swift) | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [reez]             |
-| `bdk-android` (Kotlin)  | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |
-| `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   |
-| `bdkpython` (Python)    | [bdkpython](https://github.com/bitcoindevkit/bdkpython)                       |                    |
+| Library                 | Repository                                                                    | Lead Maintainer    | Secondary Maintainer |
+| ----------------------- | ----------------------------------------------------------------------------- | ------------------ | -------------------- |
+| `bdk_wallet`            | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet)                     | [ValuedMammal]     |                      |
+| `bdk_chain`             | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [evanlinjin]       |                      |
+| `bdk_core`              | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_tx`                | [bdk-tx](https://github.com/bitcoindevkit/bdk-tx)                             |                    |                      |
+| `bdk_esplora`           | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_electrum`          | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_bitcoind_rpc`      | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_file_store`        | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `electrum-client`       | [rust-electrum-client](https://github.com/bitcoindevkit/rust-electrum-client) |                    |                      |
+| `esplora-client`        | [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client)   |                    |                      |
+| `bdk-kyoto`             | [bdk-kyoto](https://github.com/bitcoindevkit/bdk-kyoto)                       | [rustaceanrob]     |                      |
+| `bdk-swift` (Swift)     | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [reez]             |                      |
+| `bdk-android` (Kotlin)  | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |                      |
+| `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   |                      |
+| `bdk-python` (Python)   | [bdk-python](https://github.com/bitcoindevkit/bdk-python)                     |                    |                      |
 
 ### Our documentation
 
