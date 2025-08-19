@@ -27,8 +27,8 @@ The core libraries are developed and maintained collectively by the Bitcoin Dev 
 | `bdk-kyoto`             | [bdk-kyoto](https://github.com/bitcoindevkit/bdk-kyoto)                       | [rustaceanrob]     |
 | `BitcoinDevKit` (Swift) | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [reez]             |
 | `bdk-android` (Kotlin)  | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |
-| `bdk-jvm` (Kotlin)      | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |
-| `bdkpython` (Python)    | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |
+| `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   |
+| `bdkpython` (Python)    | [bdkpython](https://github.com/bitcoindevkit/bdkpython)                       |                    |
 
 ### Our documentation
 
