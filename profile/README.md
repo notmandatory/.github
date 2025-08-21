@@ -30,16 +30,17 @@ The core libraries are developed and maintained collectively by the Bitcoin Dev 
 | `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   |                      |
 | `bdk-python` (Python)   | [bdk-python](https://github.com/bitcoindevkit/bdk-python)                     |                    |                      |
 
-### Our documentation
+### Documentation and Tools
 
 We maintain multiple documentation and documentation-related codebases. The following table outlines them and their official maintainer.
 
 | Project                               | Repository                  | Lead Maintainer  |
 | ------------------------------------- | --------------------------- | ---------------- |
-| [https://bitcoindevkit.org]           | [bitcoindevkit.org]         |                  |
+| [https://bitcoindevkit.org]           | [bitcoindevkit.org]         | [reez]           |
 | BdkSwiftExampleWallet                 | [BDKSwiftExampleWallet]     | [reez]           |
 | Devkit Wallet                         | [devkit-wallet]             | [thunderbiscuit] |
 | [Book of BDK](https://bookofbdk.com)  | [book-of-bdk]               | [thunderbiscuit] |
+| [bdk-cli]                             | [bdk-cli]                   | [tvpeter]        |
 
 ### 😃 Join our community
 
@@ -53,9 +54,11 @@ Most of our communication happens on the BDK [discord server](https://discord.gg
 [reez]: https://github.com/reez
 [thunderbiscuit]: https://github.com/thunderbiscuit
 [rustaceanrob]: https://github.com/rustaceanrob
+[tvpeter]: https://github.com/tvpeter
 
 [https://bitcoindevkit.org]: https://bitcoindevkit.org
 [bitcoindevkit.org]: https://github.com/bitcoindevkit/bitcoindevkit.org
 [BDKSwiftExampleWallet]: https://github.com/bitcoindevkit/BDKSwiftExampleWallet
 [devkit-wallet]: https://github.com/bitcoindevkit/devkit-wallet
 [book-of-bdk]: https://github.com/bitcoindevkit/book-of-bdk
+[bdk-cli]: https://github.com/bitcoindevkit/bdk-cli
