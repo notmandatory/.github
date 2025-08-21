@@ -14,20 +14,20 @@ The core libraries are developed and maintained collectively by the Bitcoin Dev 
 
 | Library                 | Repository                                                                    | Lead Maintainer    | Secondary Maintainer |
 | ----------------------- | ----------------------------------------------------------------------------- | ------------------ | -------------------- |
-| `bdk_wallet`            | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet)                     | [ValuedMammal]     |                      |
-| `bdk_chain`             | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [evanlinjin]       |                      |
-| `bdk_core`              | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_wallet`            | [bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet)                     | [ValuedMammal]     | [oleonardolima]      |
+| `bdk_chain`             | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [evanlinjin]       | [LagginTimes]        |
+| `bdk_core`              | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [evanlinjin]       |                      |
 | `bdk_tx`                | [bdk-tx](https://github.com/bitcoindevkit/bdk-tx)                             |                    |                      |
-| `bdk_esplora`           | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
-| `bdk_electrum`          | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
+| `bdk_esplora`           | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [oleonardolima]    |                      |
+| `bdk_electrum`          | [bdk](https://github.com/bitcoindevkit/bdk)                                   | [LagginTimes]      |                      |
 | `bdk_bitcoind_rpc`      | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
 | `bdk_file_store`        | [bdk](https://github.com/bitcoindevkit/bdk)                                   |                    |                      |
-| `electrum-client`       | [rust-electrum-client](https://github.com/bitcoindevkit/rust-electrum-client) |                    |                      |
-| `esplora-client`        | [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client)   |                    |                      |
+| `electrum-client`       | [rust-electrum-client](https://github.com/bitcoindevkit/rust-electrum-client) | [LagginTimes]      |                      |
+| `esplora-client`        | [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client)   | [oleonardolima]    |                      |
 | `bdk-kyoto`             | [bdk-kyoto](https://github.com/bitcoindevkit/bdk-kyoto)                       | [rustaceanrob]     |                      |
 | `bdk-swift` (Swift)     | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [reez]             |                      |
 | `bdk-android` (Kotlin)  | [bdk-ffi](https://github.com/bitcoindevkit/bdk-ffi)                           | [thunderbiscuit]   |                      |
-| `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   |                      |
+| `bdk-jvm` (Kotlin)      | [bdk-jvm](https://github.com/bitcoindevkit/bdk-jvm)                           | [thunderbiscuit]   | [ItoroD]             |
 | `bdk-python` (Python)   | [bdk-python](https://github.com/bitcoindevkit/bdk-python)                     |                    |                      |
 
 ### Documentation and Tools
@@ -54,7 +54,10 @@ Most of our communication happens on the BDK [discord server](https://discord.gg
 [reez]: https://github.com/reez
 [thunderbiscuit]: https://github.com/thunderbiscuit
 [rustaceanrob]: https://github.com/rustaceanrob
+[oleonardolima]: https://github.com/oleonardolima
 [tvpeter]: https://github.com/tvpeter
+[LagginTimes]: https://github.com/LagginTimes
+[ItoroD]: https://github.com/ItoroD
 
 [https://bitcoindevkit.org]: https://bitcoindevkit.org
 [bitcoindevkit.org]: https://github.com/bitcoindevkit/bitcoindevkit.org
