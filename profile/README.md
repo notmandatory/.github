@@ -12,7 +12,12 @@ The home page for the overarching BDK project and the BDK Foundation that suppor
 
 We provide the technical infrastructure to maintain a number of software and documentation projects across different maturity levels and support models. To help you navigate these projects, we've categorized them along two dimensions: Maturity Level (Stable or Experimental) and Support Model (Foundation or Community). See "The Book of BDK" [chapter on library tiers](https://bookofbdk.com/getting-started/tiers/#library-tiers) for more details.
 
-The lead and secondary maintainers for each project are responsible for triaging new issues and PRs, providing guidance to contributors, and reviewing and merging changes based on rough consensus from the community.
+The lead and secondary maintainers for each project are responsible for:
+
+  - triaging new issues and PRs
+  - providing guidance to contributors
+  - reviewing and merging changes based on rough consensus
+  - making and publishing releases
 
 #### Foundation Supported
 
@@ -21,19 +26,18 @@ The lead and secondary maintainers for each project are responsible for triaging
 | Project                     | Lead Maintainer    | Secondary Maintainer   |
 | --------------------------- | ------------------ | ---------------------- |
 | [bdk_wallet]                | [ValuedMammal]     | [oleonardolima]        |
-| [bdk/crates/core]           | [evanlinjin]       |                        |
-| [bdk/crates/chain]          | [evanlinjin]       |                        |
-| [bdk/crates/esplora]        | [oleonardolima]    |                        |
-| [bdk/crates/electrum]       |                    |                        |
-| [bdk/crates/bitcoind_rpc]   |                    |                        |
-| [bdk/crates/testenv]        |                    |                        |
-| [rust-esplora-client]       | [oleonardolima]    |                        |
-| [rust-electrum-client]      |                    |                        |
+| [bdk/crates/core]           | [evanlinjin]       | [oleonardolima]        |
+| [bdk/crates/chain]          | [evanlinjin]       | [oleonardolima]        |
+| [bdk/crates/esplora]        | [oleonardolima]    | [luisschwab]           |
+| [bdk/crates/electrum]       | [evanlinjin]       | [oleonardolima]        |
+| [bdk/crates/bitcoind_rpc]   | [evanlinjin]       | [ValuedMammal]         |
+| [bdk/crates/testenv]        | [tvpeter]          |                        |
+| [rust-esplora-client]       | [oleonardolima]    | [luisschwab]           |
+| [rust-electrum-client]      | [oleonardolima]    |                        |
 | [bdk-ffi]                   | [thunderbiscuit]   | [reez]                 |
 | [bdk-jvm]                   | [thunderbiscuit]   | [ItoroD]               |
-| [bdk-android]               | [thunderbiscuit]   |                        |
-| [bdk-swift]                 | [reez]             |                        |
-| [bitcoindevkit.org]         | [reez]             | [thunderbiscuit]       |
+| [bdk-android]               | [thunderbiscuit]   | [reez]                 |
+| [bdk-swift]                 | [reez]             | [thunderbiscuit]       |
 | [book-of-bdk]               | [thunderbiscuit]   | [reez]                 |
 
 [bdk_wallet]: https://github.com/bitcoindevkit/bdk_wallet
@@ -53,7 +57,6 @@ The lead and secondary maintainers for each project are responsible for triaging
 [bdk-android]: https://github.com/bitcoindevkit/bdk-ffi/tree/master/bdk-android
 [bdk-swift]: https://github.com/bitcoindevkit/bdk-ffi/tree/master/bdk-swift
 
-[bitcoindevkit.org]: https://github.com/bitcoindevkit/bitcoindevkit.org
 [book-of-bdk]: https://github.com/bitcoindevkit/book-of-bdk
 
 ##### Experimental
@@ -61,18 +64,20 @@ The lead and secondary maintainers for each project are responsible for triaging
 | Project                     | Lead Maintainer    | Secondary Maintainer   |
 | --------------------------- | ------------------ | ---------------------- |
 | [bdk/crates/coin-select]    | [evanlinjin]       |                        |
+| [bdk/crates/file_store]     | [nymius]           |                        |
 | [bdk-tx]                    | [ValuedMammal]     |                        |
 | [bdk-sp]                    | [nymius]           |                        |
-| [electrum_streaming_client] | [evanlinjin]       |                        |
-| [bdk-bitcoind-client]       | [ValuedMammal]     |                        |
+| [electrum_streaming_client] | [evanlinjin]       | [oleonardolima]        |
+| [bdk-bitcoind-client]       | [ValuedMammal]     | [tvpeter]              |
 | [bdk-sqlite]                | [ValuedMammal]     |                        |
 | [bdk-dart]                  | [reez]             |                        |
-| [bdk-rn]                    | [thunderbiscuit]   |                        |
+| [bdk-rn]                    | [thunderbiscuit]   | [reez]                 |
 | [bdk-cli]                   | [tvpeter]          |                        |
 | [BDKSwiftExampleWallet]     | [reez]             |                        |
 | [devkit-wallet]             | [thunderbiscuit]   |                        |
 
 [bdk/crates/coin-select]: https://github.com/bitcoindevkit/coin-select
+[bdk/crates/file_store]: https://github.com/bitcoindevkit/bdk/tree/master/crates/file_store
 [bdk-tx]: https://github.com/bitcoindevkit/bdk-tx
 [bdk-sp]: https://github.com/bitcoindevkit/bdk-sp
 [electrum_streaming_client]: https://github.com/bitcoindevkit/electrum_streaming_client
@@ -108,12 +113,10 @@ The lead and secondary maintainers for each project are responsible for triaging
 
 | Project                     | Lead Maintainer        | Secondary Maintainer   |
 | --------------------------- | ---------------------- | ---------------------- |
-| [bdk-sqlx]                  | [matthiasdebernardini] |                        | 
-| [bdk/crates/file_store]     |                        |                        |
+| [bdk-sqlx]                  | [matthiasdebernardini] |                        |
 | [bitcoin-ffi]               |                        |                        |
 
 [bdk-sqlx]: https://github.com/bitcoindevkit/bdk-sqlx
-[bdk/crates/file_store]: https://github.com/bitcoindevkit/bdk/tree/master/crates/file_store
 [bitcoin-ffi]: https://github.com/bitcoindevkit/bitcoin-ffi
 
 ### 😃 Join our community
@@ -134,5 +137,6 @@ us on GitHub and the BDK [discord server](https://discord.gg/UbTmGbNF3M)!
 [notmandatory]: https://github.com/notmandatory
 [ulrichard]: https://github.com/ulrichard
 [matthiasdebernardini]: https://github.com/matthiasdebernardini
+[luisschwab]: https://github.com/luisschwab
 
 [https://bitcoindevkit.org]: https://bitcoindevkit.org
