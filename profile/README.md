@@ -26,14 +26,14 @@ The lead and secondary maintainers for each project are responsible for:
 | Project                     | Lead Maintainer    | Secondary Maintainer   |
 | --------------------------- | ------------------ | ---------------------- |
 | [bdk_wallet]                | [ValuedMammal]     | [oleonardolima]        |
-| [bdk/crates/core]           | [evanlinjin]       | [oleonardolima]        |
-| [bdk/crates/chain]          | [evanlinjin]       | [oleonardolima]        |
-| [bdk/crates/esplora]        | [oleonardolima]    | [luisschwab]           |
-| [bdk/crates/electrum]       | [evanlinjin]       | [oleonardolima]        |
-| [bdk/crates/bitcoind_rpc]   | [evanlinjin]       | [ValuedMammal]         |
-| [bdk/crates/testenv]        | [tvpeter]          |                        |
-| [rust-esplora-client]       | [oleonardolima]    | [luisschwab]           |
-| [rust-electrum-client]      | [oleonardolima]    |                        |
+| [bdk_core]                  | [evanlinjin]       | [oleonardolima]        |
+| [bdk_chain]                 | [evanlinjin]       | [oleonardolima]        |
+| [bdk_esplora]               | [oleonardolima]    | [luisschwab]           |
+| [bdk_electrum]              | [evanlinjin]       | [oleonardolima]        |
+| [bdk_bitcoind_rpc]          | [evanlinjin]       | [ValuedMammal]         |
+| [bdk_testenv]               | [tvpeter]          | [luisschwab]           |
+| [esplora-client]            | [oleonardolima]    | [luisschwab]           |
+| [electrum-client]           | [oleonardolima]    | [luisschwab]           |
 | [bdk-ffi]                   | [thunderbiscuit]   | [reez]                 |
 | [bdk-jvm]                   | [thunderbiscuit]   | [ItoroD]               |
 | [bdk-android]               | [thunderbiscuit]   | [reez]                 |
@@ -41,16 +41,16 @@ The lead and secondary maintainers for each project are responsible for:
 | [book-of-bdk]               | [thunderbiscuit]   | [reez]                 |
 
 [bdk_wallet]: https://github.com/bitcoindevkit/bdk_wallet
-[bdk/crates/chain]: https://github.com/bitcoindevkit/bdk/tree/master/crates/chain
-[bdk/crates/core]: https://github.com/bitcoindevkit/bdk/tree/master/crates/core
+[bdk_chain]: https://github.com/bitcoindevkit/bdk/tree/master/crates/chain
+[bdk_core]: https://github.com/bitcoindevkit/bdk/tree/master/crates/core
 
-[bdk/crates/esplora]: https://github.com/bitcoindevkit/bdk/tree/master/crates/esplora
-[bdk/crates/electrum]: https://github.com/bitcoindevkit/bdk/tree/master/crates/electrum
-[bdk/crates/bitcoind_rpc]: https://github.com/bitcoindevkit/bdk/tree/master/crates/bitcoind_rpc
+[bdk_esplora]: https://github.com/bitcoindevkit/bdk/tree/master/crates/esplora
+[bdk_electrum]: https://github.com/bitcoindevkit/bdk/tree/master/crates/electrum
+[bdk_bitcoind_rpc]: https://github.com/bitcoindevkit/bdk/tree/master/crates/bitcoind_rpc
 
-[bdk/crates/testenv]: https://github.com/bitcoindevkit/bdk/tree/master/crates/testenv
-[rust-esplora-client]: https://github.com/bitcoindevkit/rust-esplora-client
-[rust-electrum-client]: https://github.com/bitcoindevkit/rust-electrum-client
+[bdk_testenv]: https://github.com/bitcoindevkit/bdk/tree/master/crates/testenv
+[esplora-client]: https://github.com/bitcoindevkit/rust-esplora-client
+[electrum-client]: https://github.com/bitcoindevkit/rust-electrum-client
 
 [bdk-ffi]: https://github.com/bitcoindevkit/bdk-ffi
 [bdk-jvm]: https://github.com/bitcoindevkit/bdk-jvm
@@ -63,26 +63,26 @@ The lead and secondary maintainers for each project are responsible for:
 
 | Project                     | Lead Maintainer    | Secondary Maintainer   |
 | --------------------------- | ------------------ | ---------------------- |
-| [bdk/crates/coin-select]    | [evanlinjin]       |                        |
-| [bdk/crates/file_store]     | [nymius]           |                        |
-| [bdk-tx]                    | [ValuedMammal]     |                        |
-| [bdk-sp]                    | [nymius]           |                        |
+| [bdk_coin_select]           | [evanlinjin]       |                        |
+| [bdk_file_store]            | [nymius]           |                        |
+| [bdk_tx]                    | [ValuedMammal]     | [aagbotemi]            |
+| [bdk_sp]                    | [nymius]           |                        |
 | [electrum_streaming_client] | [evanlinjin]       | [oleonardolima]        |
 | [bdk-bitcoind-client]       | [ValuedMammal]     | [tvpeter]              |
-| [bdk-sqlite]                | [ValuedMammal]     |                        |
+| [bdk_sqlite]                | [ValuedMammal]     |                        |
 | [bdk-dart]                  | [reez]             |                        |
 | [bdk-rn]                    | [thunderbiscuit]   | [reez]                 |
 | [bdk-cli]                   | [tvpeter]          |                        |
 | [BDKSwiftExampleWallet]     | [reez]             |                        |
 | [devkit-wallet]             | [thunderbiscuit]   |                        |
 
-[bdk/crates/coin-select]: https://github.com/bitcoindevkit/coin-select
-[bdk/crates/file_store]: https://github.com/bitcoindevkit/bdk/tree/master/crates/file_store
-[bdk-tx]: https://github.com/bitcoindevkit/bdk-tx
-[bdk-sp]: https://github.com/bitcoindevkit/bdk-sp
+[bdk_coin_select]: https://github.com/bitcoindevkit/coin-select
+[bdk_file_store]: https://github.com/bitcoindevkit/bdk/tree/master/crates/file_store
+[bdk_tx]: https://github.com/bitcoindevkit/bdk-tx
+[bdk_sp]: https://github.com/bitcoindevkit/bdk-sp
 [electrum_streaming_client]: https://github.com/bitcoindevkit/electrum_streaming_client
 [bdk-bitcoind-client]: https://github.com/bitcoindevkit/bdk-bitcoind-client
-[bdk-sqlite]: https://github.com/bitcoindevkit/bdk-sqlite
+[bdk_sqlite]: https://github.com/bitcoindevkit/bdk-sqlite
 [bdk-dart]: https://github.com/bitcoindevkit/bdk-dart
 [bdk-rn]: https://github.com/bitcoindevkit/bdk-rn
 [bdk-cli]: https://github.com/bitcoindevkit/bdk-cli
@@ -95,14 +95,14 @@ The lead and secondary maintainers for each project are responsible for:
 
 | Project                     | Lead Maintainer    | Secondary Maintainer   |
 | --------------------------- | ------------------ | ---------------------- |
-| [bdk-kyoto]                 | [rustaceanrob]     |                        |
+| [bdk_kyoto]                 | [rustaceanrob]     |                        |
 | [bdk-python]                |                    |                        |
 | [bdk-wasm]                  | [darioAnongba]     |                        |
 | [bdk-reserves]              | [ulrichard]        |                        |
 | [rust-cktap]                | [notmandatory]     |  [reez]                |
 | [awesome-bdk]               | [thunderbiscuit]   |                        |
 
-[bdk-kyoto]:https://github.com/bitcoindevkit/bdk-kyoto
+[bdk_kyoto]:https://github.com/bitcoindevkit/bdk-kyoto
 [bdk-python]: https://github.com/bitcoindevkit/bdk-python
 [bdk-wasm]: https://github.com/bitcoindevkit/bdk-wasm
 [bdk-reserves]: https://github.com/bitcoindevkit/bdk-reserves
@@ -113,10 +113,10 @@ The lead and secondary maintainers for each project are responsible for:
 
 | Project                     | Lead Maintainer        | Secondary Maintainer   |
 | --------------------------- | ---------------------- | ---------------------- |
-| [bdk-sqlx]                  | [matthiasdebernardini] |                        |
+| [bdk_sqlx]                  | [matthiasdebernardini] |                        |
 | [bitcoin-ffi]               |                        |                        |
 
-[bdk-sqlx]: https://github.com/bitcoindevkit/bdk-sqlx
+[bdk_sqlx]: https://github.com/bitcoindevkit/bdk-sqlx
 [bitcoin-ffi]: https://github.com/bitcoindevkit/bitcoin-ffi
 
 ### 😃 Join our community
@@ -138,5 +138,6 @@ us on GitHub and the BDK [discord server](https://discord.gg/UbTmGbNF3M)!
 [ulrichard]: https://github.com/ulrichard
 [matthiasdebernardini]: https://github.com/matthiasdebernardini
 [luisschwab]: https://github.com/luisschwab
+[aagbotemi]: https://github.com/aagbotemi
 
 [https://bitcoindevkit.org]: https://bitcoindevkit.org
