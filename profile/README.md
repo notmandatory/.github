@@ -115,11 +115,11 @@ The lead and secondary maintainers for each project are responsible for:
 | --------------------------- | ---------------------- | ---------------------- |
 | [bdk_sqlx]                  | [matthiasdebernardini] |                        |
 | [bitcoin-ffi]               |                        |                        |
-| [bdk-bip322]                | [aagbotemi]            |                        |
+| [bdk-message-signer]        | [aagbotemi]            |                        |
 
 [bdk_sqlx]: https://github.com/bitcoindevkit/bdk-sqlx
 [bitcoin-ffi]: https://github.com/bitcoindevkit/bitcoin-ffi
-[bdk-bip322]: https://github.com/bitcoindevkit/bdk-bip322
+[bdk-message-signer]: https://github.com/bitcoindevkit/bdk-message-signer
 
 ### 😃 Join our community
 
